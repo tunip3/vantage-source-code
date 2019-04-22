@@ -1,0 +1,9 @@
+{
+  "name": "Vantage",
+  "productName": "Vantage",
+  "description": "Vantage - PC Game Save Editor",
+  "main": "index.js",
+  "author": "Vantage",
+  "license": "UNLICENSED",
+  "version": "3.0.0"
+}
