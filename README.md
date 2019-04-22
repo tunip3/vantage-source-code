@@ -1,5 +1,5 @@
 # Vantage source code
-This repo is a complete (at the time of this repositories creation) collection of source codes for every version of the vantage modding tool.
+This repo is a collection of source codes for most versions of the vantage modding tool.
 
 ## How the source was extracted
 Vantage is an electron app that stores its code in an asar inside its resources folder.
