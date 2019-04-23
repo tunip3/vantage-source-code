@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Vantage</title>
 
     <style>
-      body {
-        background: #071E22;
-      }
-
-      .preload-wrapper img {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 100px;
-        transform: translate(-50%, -50%);
-        animation: theory-pulse ease-in-out 1.5s infinite;
-      }
-
-      @keyframes theory-pulse {
-        0% {
-          filter: drop-shadow(0px 0px 15px rgba(49, 178, 74, 0.8));
+        body {
+            background: #071E22;
         }
 
-        50% {
-          filter: drop-shadow(0px 0px 5px rgba(49, 178, 74, 0.3));
+        .preload-wrapper img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 100px;
+            transform: translate(-50%, -50%);
+            animation: theory-pulse ease-in-out 1.5s infinite;
         }
 
-        100% {
-          filter: drop-shadow(0px 0px 15px rgba(49, 178, 74, 0.8));
+        @keyframes theory-pulse {
+            0% {
+                filter: drop-shadow(0px 0px 15px rgba(49, 178, 74, 0.8));
+            }
+
+            50% {
+                filter: drop-shadow(0px 0px 5px rgba(49, 178, 74, 0.3));
+            }
+
+            100% {
+                filter: drop-shadow(0px 0px 15px rgba(49, 178, 74, 0.8));
+            }
         }
-      }
     </style>
 
     <script>
@@ -39,12 +40,13 @@
         delete window.exports;
         delete window.module;
     </script>
-  </head>
+</head>
 
-  <body aurelia-app="main">
+<body aurelia-app="main">
     <div class="preload-wrapper">
-      <img src="static/images/emblem.svg">
+        <img src="static/images/emblem.svg">
     </div>
     <script src="output/vendor-bundle.js" data-main="aurelia-bootstrapper"></script>
-  </body>
+</body>
+
 </html>
