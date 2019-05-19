@@ -6,4 +6,5 @@ Vantage is an electron app that stores its code in an asar inside its resources 
 The asar can be extracted by running the command ( asar extract app.asar sourcecode ) which extracts it to a folder called sourcecode .
 
 ## How to run the extracted vantage source code
-You must install node js then run the commands ( npm install electron ) and ( electron index.js ) .
+You must install node js then run the command:
+npm install && npm start
